@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.cardsContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 1rem;
+}
+
+.card {
+    background-color: #F0E68C;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    color: #000000;
+}
+
+.portfolioTitle {
+    padding: 45px; 
+    text-align: center;
+    font-size: 3rem;
+    color: #F0E68C;
+    text-shadow:
+        -1px -1px 0px #000000,
+        -1px 1px 0px #000000,
+        0px -1px 0px #000000,
+        0px 0px 0px #000000;
+}
+
+.conteinerSearch{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputContainer{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.inputName{
+    padding: 10px;
+    text-align: center;
+}
